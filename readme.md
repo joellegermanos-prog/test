@@ -65,7 +65,7 @@ flowchart LR
     MODEL[🧠 Modèle existant Acerox<br/>prédiction défauts qualité]
 
     SRC1 --> |source retenue|INGEST
-    INGEST -->|normalisation | BDD
+    INGEST -->|normalisation + non duplication | BDD
     SHEMA -->|évolution du Shéma| BDD
     BDD -->|consommée par| MODEL
 
