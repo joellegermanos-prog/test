@@ -60,7 +60,7 @@ flowchart LR
 
 
     INGEST[🔄 Ingestion<br/>ingest_measures.py + SQLAlchemy]
-    SHEMA[(🗄️ évolution du Shéma<br/>Migration Alembic)]
+    SHEMA[🗄️ évolution du Shéma<br/>Migration Alembic]
     BDD[(🗄️ BDD pivot<br/>SQLite<br/>Tables: produits + mesures_iot)]
     MODEL[🧠 Modèle existant Acerox<br/>prédiction défauts qualité]
 
