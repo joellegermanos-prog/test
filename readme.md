@@ -67,7 +67,7 @@ flowchart LR
     SRC1 --> |source retenue|INGEST
     INGEST -->|normalisation | BDD
     SHEMA -->|évolution du Shéma| BDD
-    BDD -->|à consommer| MODEL
+    BDD -->|consommée par| MODEL
 
     classDef source fill:#e1f5ff,stroke:#0277bd
     classDef tofix fill:#fff4e1,stroke:#c97a00,stroke-dasharray: 5 5
